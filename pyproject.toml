@@ -26,8 +26,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python"
-Issues = "https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/issues"
+Repository = "https://github.com/chokripto/Hybrid-PKI-Lab"
+Issues = "https://github.com/chokripto/Hybrid-PKI-Lab/issues"
 
 [project.optional-dependencies]
 pqc = ["liboqs-python>=0.10,<0.13"]

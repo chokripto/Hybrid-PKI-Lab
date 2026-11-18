@@ -1,9 +1,9 @@
 # Hybrid PKI Lab
 
-[![Tests](https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/actions/workflows/tests.yml/badge.svg)](https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/actions/workflows/tests.yml)
-[![Real PQC](https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/actions/workflows/pqc-integration.yml/badge.svg)](https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/actions/workflows/pqc-integration.yml)
-[![Lint](https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/actions/workflows/lint.yml/badge.svg)](https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/actions/workflows/lint.yml)
-[![Security](https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/actions/workflows/security.yml/badge.svg)](https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python/actions/workflows/security.yml)
+[![Tests](https://github.com/chokripto/Hybrid-PKI-Lab/actions/workflows/tests.yml/badge.svg)](https://github.com/chokripto/Hybrid-PKI-Lab/actions/workflows/tests.yml)
+[![Real PQC](https://github.com/chokripto/Hybrid-PKI-Lab/actions/workflows/pqc-integration.yml/badge.svg)](https://github.com/chokripto/Hybrid-PKI-Lab/actions/workflows/pqc-integration.yml)
+[![Lint](https://github.com/chokripto/Hybrid-PKI-Lab/actions/workflows/lint.yml/badge.svg)](https://github.com/chokripto/Hybrid-PKI-Lab/actions/workflows/lint.yml)
+[![Security](https://github.com/chokripto/Hybrid-PKI-Lab/actions/workflows/security.yml/badge.svg)](https://github.com/chokripto/Hybrid-PKI-Lab/actions/workflows/security.yml)
 
 An educational research prototype for exploring migration from classical PKI to hybrid classical/post-quantum architectures in Python.
 
@@ -45,8 +45,8 @@ Algorithm availability depends on the pinned `liboqs` build. SLH-DSA is not curr
 ## Standard mode
 
 ```bash
-git clone https://github.com/chokripto/Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python.git
-cd Hybrid-PKI-Lab-Classical-and-Post-Quantum-PKI-in-Python
+git clone https://github.com/chokripto/Hybrid-PKI-Lab.git
+cd Hybrid-PKI-Lab
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip

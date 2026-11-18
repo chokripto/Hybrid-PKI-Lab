@@ -4,6 +4,12 @@ All notable changes to Hybrid PKI Lab are documented here.
 
 ## Unreleased
 
+No unreleased changes yet.
+
+## 1.0.0 - 2026-11-18
+
+Initial documented release of the educational Hybrid PKI Lab, including classical PKI, optional ML-KEM and ML-DSA integration, experimental hybrid certificates, FastAPI demonstrations, benchmarks, Docker support, tests and technical documentation.
+
 ### Security
 
 - Disabled state-changing API operations by default and added optional API-key protection.
@@ -30,7 +36,3 @@ All notable changes to Hybrid PKI Lab are documented here.
 - Reframed the project as an educational research prototype.
 - Corrected algorithm claims and clarified downgrade and production limitations.
 - Added SECURITY.md and improved package metadata.
-
-## 1.0.0
-
-Initial educational laboratory release with classical PKI, optional ML-KEM and ML-DSA integration, experimental hybrid certificates, FastAPI demonstrations, benchmarks, Docker support, tests and technical documentation.

@@ -58,7 +58,8 @@ def save_pem_file(path: str | Path, data: bytes) -> None:
     )
     temporary_path = Path(temporary_name)
     try:
-        os.fchmod(descriptor, 0o600)
+        if hasattr(os, "fchmod"):
+            os.fchmod(descriptor, 0o600)
         with os.fdopen(descriptor, "wb") as stream:
             stream.write(data)
             stream.flush()
